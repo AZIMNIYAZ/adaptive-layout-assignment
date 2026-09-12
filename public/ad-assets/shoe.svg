@@ -1,0 +1,43 @@
+<svg width="640" height="440" viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DED5C2"/>
+      <stop offset="1" stop-color="#CBBFA6"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="320" cy="392" rx="260" ry="26" fill="url(#ground)"/>
+
+  <!-- sole -->
+  <path d="M64 300 Q60 340 100 352 L520 352 Q560 350 566 316 L566 300 Z" fill="#3C4A34"/>
+  <path d="M64 300 Q60 328 96 336 L520 336 Q552 334 560 306 L560 300 Z" fill="#54633F"/>
+
+  <!-- upper -->
+  <path d="M84 300
+           C 80 250 108 214 150 200
+           C 176 191 206 190 232 178
+           C 262 164 300 150 352 150
+           C 420 150 468 172 500 214
+           C 522 242 534 270 540 300 Z"
+        fill="#B5562D"/>
+
+  <!-- upper shading / panel -->
+  <path d="M150 200 C176 191 206 190 232 178 C262 164 300 150 352 150
+           C 392 150 426 160 452 178
+           L 420 210 C 392 196 356 190 322 194
+           C 280 199 248 214 214 228 Z"
+        fill="#C1673B"/>
+
+  <!-- laces -->
+  <g stroke="#F6F3EA" stroke-width="6" stroke-linecap="round">
+    <line x1="300" y1="182" x2="336" y2="206"/>
+    <line x1="322" y1="176" x2="358" y2="200"/>
+    <line x1="344" y1="172" x2="380" y2="196"/>
+    <line x1="366" y1="170" x2="402" y2="194"/>
+  </g>
+
+  <!-- heel tab -->
+  <path d="M500 214 C522 242 534 270 540 300 L566 300 C560 258 542 224 512 196 Z" fill="#8A3E1E"/>
+
+  <!-- swoosh accent -->
+  <path d="M120 268 C 200 300 320 300 500 258" stroke="#EDE3C9" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.85"/>
+</svg>
