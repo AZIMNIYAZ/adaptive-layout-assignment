@@ -8,6 +8,8 @@ square kiosk, or a surface the engine has never seen before — without a single
 Demo ad: **TERRA**, a fictional trail-running shoe brand (headline, hero product
 shot, price, CTA, logo — the same five-element brief given in the assignment).
 
+Deployment Link: adaptive-layout-assignment-dusky.vercel.app
+
 ## Setup
 
 ```bash
